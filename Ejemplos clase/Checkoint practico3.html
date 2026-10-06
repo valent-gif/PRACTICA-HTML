@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="registro" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    #input es para enviar los datos del formulario al servidor
+    <form action="/registro/" method="post">
+        Nombre:
+        <input type="texto" name=""nombre" autocomplete="off" placeholder="Ingrese su nombre">
+        <br>
+        Correo:
+        <input type="email" name="correo" autocomplete="off" placeholder="felipesanchez@gmail.com">
+        <br>
+        Telefono:
+        <input type:"telefono" name=""telefono" atocomplete="off" placeholder="3206563897">
+        <br>
+        Contraseña:
+        <input type="password" name="contraseña" autocomplete="off" placeholder="Ingrese su contraseña">
+        <br>
+        <input hidden name="token" value="web"
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

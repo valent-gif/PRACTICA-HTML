@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <table border="1">
+        <tr>
+            <td>nombre</td>
+            <td>apellido</td>
+            <td>edad</td>
+            <td>ciudad</td>
+            <td>fecha</td>
+            <td>altura</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Ardila</td>
+            <td>21</td>
+            <td>Floridablanca</td>
+            <td>11/octubre/2004</td>
+            <td>1.76</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ricardo</td>
+            <!-- <td>Ricardo</td> -->
+            <td>28</td>
+            <td>Bogota</td>
+            <td rowspan="2">2026/10/06</td>
+            <td>1.92</td>
+        </tr>
+        <tr>
+            <td>Eduardo</td>
+            <td>Gamboa</td>
+            <td>19</td>
+            <td>Floridablanca</td>
+            <!-- <td>2026/10/06</td> -->
+            <td>1.80</td>
+        </tr>
+    </table>
+    <h1>Listas</h2>
+
+    <h2>Listas NO ordenadas</h2>
+
+    <ul type="square">
+        <li>1 kg de arroz</li>
+        <li>1 arroba de papa</li>
+        <li>1 libra de tomate</li>
+    </ul>
+
+    <h2>Listas ordenadas</h2>
+
+    <ol type="I" start="2">
+        <li>Introduccion a la programacion</li>
+        <li>Python</li>
+        <li>GitHub</li>
+        <li>Scrum</li>
+        <li>HTML y CSS</li>
+    </ol>
+
+    <h2>Formularios</h2>
+
+    <form action="/send" method="post">
+        Nombre:
+        <input type="text" name="nombre" autocomplete="off" placeholder="Pepito Perez" id="name">
+        <br>
+        Telefono
+        <input type="tel" name="telefono" id="telephone" placeholder="+XX XXXXXXXXXX">
+        <br>
+        Correo:
+        <input type="email" name="correo" id="email" placeholder="nombre@dominio.com">
+        <br>
+        Contraseña
+        <input type="password" name="password" id="passw" placeholder="Contraseña" value="123">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
